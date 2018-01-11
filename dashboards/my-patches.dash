@@ -1,0 +1,14 @@
+[dashboard]
+title = My patches
+description = All my patches waiting for review
+
+foreach = status:open owner:self
+
+[section "To master"]
+query = branch:master
+
+[section "To Pike"]
+query = branch:stable/pike
+
+[section "To Ocata"]
+query = branch:stable/ocata
