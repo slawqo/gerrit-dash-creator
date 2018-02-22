@@ -7,6 +7,9 @@ foreach = status:open owner:self
 [section "To master"]
 query = branch:master
 
+[section "To Queens"]
+query = branch:stable/queens
+
 [section "To Pike"]
 query = branch:stable/pike
 
